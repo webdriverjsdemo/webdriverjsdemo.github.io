@@ -17,6 +17,11 @@ function changeElementText(id) {
   element.textContent = "new";
 }
 
+function spanClicked(text) {
+    var element = document.getElementById('result');
+    element.textContent = text + " clicked!";
+}
+
 setTimeout("addChildElement('elementappearsparent')", 2000);
 setTimeout("removeChildElement('elementdisappears')", 3000);
 setTimeout("changeElementText('elementchangestext')", 4000);
