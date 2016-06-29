@@ -1,1 +1,1 @@
-purpleMonkeyDishwasher();
+throw 'Purple Monkey Dishwasher Error';
