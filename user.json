@@ -1,0 +1,12 @@
+{
+    "name":"Mish O'Donnelly",
+    "username":"mdon88",
+    "email":"mish@odon.com",
+    "age":22,
+    "address":{
+        "street":"70 Strict Street",
+        "city":"Brisbane",
+        "state":"Queensland",
+        "postcode":4121
+    }
+}
