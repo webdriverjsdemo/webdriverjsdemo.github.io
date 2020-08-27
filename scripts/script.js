@@ -7,6 +7,15 @@ function addChildElement(id) {
   parent.appendChild(div);
 }
 
+window.addEventListener("load", function(){
+  var parent = document.getElementById('elementappearsafterpage');
+  var div = document.createElement("div");
+  var text = document.createTextNode("Loaded!");
+  div.setAttribute("id", "loadedchild");
+  div.appendChild(text);
+  parent.appendChild(div);
+})
+
 function removeChildElement(id) {
   var elem = document.getElementById(id);
   elem.parentElement.removeChild(elem);
@@ -25,3 +34,4 @@ function spanClicked(text) {
 setTimeout("addChildElement('elementappearsparent')", 2000);
 setTimeout("removeChildElement('elementdisappears')", 3000);
 setTimeout("changeElementText('elementchangestext')", 4000);
+
