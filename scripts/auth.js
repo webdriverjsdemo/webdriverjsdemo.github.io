@@ -3,7 +3,7 @@ window.onload = () => {
   ok.addEventListener('click', () => {
     const firstname = document.getElementById('firstname').value
     const surname = document.getElementById('surname').value
-    document.cookie = `${firstname} ${surname}`;
+    document.cookie = `name=${firstname}${surname}`;
   });
   if (document.cookie) {
     const welcome = document.getElementById('welcome');
