@@ -4,6 +4,7 @@ window.onload = () => {
     const firstname = document.getElementById('firstname').value
     const surname = document.getElementById('surname').value
     document.cookie = `name=${firstname}${surname}`;
+    location.reload();
   });
   if (document.cookie) {
     const welcome = document.getElementById('welcome');
