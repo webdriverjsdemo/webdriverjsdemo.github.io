@@ -13,6 +13,7 @@ function loadRequest() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "https://my-json-server.typicode.com/webdriverjsdemo/webdriverjsdemo.github.io/posts", true);
+  //xhttp.open("GET", "https://my-json-server.typicode.com/webdriverjsdemo/webdriverjsdemo.github.io/posts", true);
+  xhttp.open("GET", "https://jp.translink.com.au/api/stop/timetable/003749", true);
   xhttp.send();
 }
