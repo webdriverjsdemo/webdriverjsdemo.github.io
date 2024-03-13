@@ -14,6 +14,6 @@ function loadRequest() {
     }
   };
   //xhttp.open("GET", "https://my-json-server.typicode.com/webdriverjsdemo/webdriverjsdemo.github.io/posts", true);
-  xhttp.open("GET", "https://jp.translink.com.au/api/stop/timetable/003749", true);
+  xhttp.open("GET", "https://opia.api.translink.com.au/v2/api/timetable/stop/003749/current", true);
   xhttp.send();
 }
