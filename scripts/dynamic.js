@@ -13,7 +13,6 @@ function loadRequest() {
       this.responseText;
     }
   };
-  //xhttp.open("GET", "https://my-json-server.typicode.com/webdriverjsdemo/webdriverjsdemo.github.io/posts", true);
-  xhttp.open("GET", "https://opia.api.translink.com.au/v2/api/timetable/stop/003749/current", true);
+  xhttp.open("GET", "https://my-json-server.typicode.com/webdriverjsdemo/webdriverjsdemo.github.io/posts", true);
   xhttp.send();
 }
